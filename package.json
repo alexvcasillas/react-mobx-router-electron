@@ -1,0 +1,44 @@
+{
+  "name": "react-mobx-router-electron",
+  "version": "0.1.0",
+  "description": "React Create App with React Router and MobX and Electron",
+  "author": "Alex Casillas <alexvcasillas@gmail.com>",
+  "private": true,
+  "devDependencies": {
+    "electron": "^1.4.15",
+    "electron-builder": "^13.6.0",
+    "foreman": "^2.0.0",
+    "custom-react-scripts": "0.0.23",
+    "mobx-react-devtools": "^4.2.11"
+  },
+  "dependencies": {
+    "mobx": "^3.1.4",
+    "mobx-react": "^4.1.2",
+    "mobx-react-router": "^3.1.2",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-router": "^3.0.2"
+  },
+  "homepage": "./",
+  "main": "src/electron-starter.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "electron": "electron .",
+    "dev": "nf start -p 3000",
+    "pack": "build --dir",
+    "dist": "npm run build && build",
+    "postinstall": "install-app-deps"
+  },
+  "build": {
+    "appId": "com.alexvcasillas.react-mobx-router-electron",
+    "win": {
+      "iconUrl": "https://cdn2.iconfinder.com/data/icons/designer-skills/128/react-256.png"
+    },
+    "directories": {
+      "buildResources": "public"
+    }
+  }
+}
