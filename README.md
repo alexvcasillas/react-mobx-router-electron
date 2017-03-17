@@ -6,6 +6,8 @@
 
 AKA: **3RMXi-E** (for the sake of brevity!)
 
+📢 **Info:** This documentation is currently at work in progress and inherits from my [3RMXi Project](https://github.com/alexvcasillas/react-mobx-router). Dig a litte into the `package.json` to know how to run development mode and build for production.
+
 ❕❕ **New:** Now supports Internationalization!
 
 ❕❕ **New:** i18n now supports nested language resource objects for a better structuring!
