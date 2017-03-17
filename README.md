@@ -2,7 +2,7 @@
 
 ![3RMXi-E Logotype](https://raw.githubusercontent.com/alexvcasillas/react-mobx-router-electron/master/3RMXi-E.jpg)
 
-### React Create App with React Router and MobX and Internationalization
+### React Create App with React Router and MobX and Internationalization and Electron
 
 AKA: **3RMXi-E** (for the sake of brevity!)
 
