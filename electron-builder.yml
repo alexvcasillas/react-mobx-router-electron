@@ -1,0 +1,37 @@
+appId: com.alexvcasillas
+copyright: Alex Casillas
+productName: react-mobx-router-electron
+
+asar: true
+
+directories:
+  buildResources: build-assets/
+  output: dist/
+
+files:
+  - package.json
+  - init.js
+  - build/
+  - node_modules/
+
+dmg:
+  contents:
+    - type: link
+      path: /Applications
+      x: 410
+      y: 150
+    - type: file
+      x: 130
+      y: 150
+
+mac:
+  target: dmg
+  category: public.app-category.tools
+
+win:
+  target: nsis
+
+linux:
+  target:
+    - deb
+    - AppImage
