@@ -1,6 +1,6 @@
 # react-mobx-router-electron
 
-![3RMXi-E Logotype](https://raw.githubusercontent.com/alexvcasillas/react-mobx-router/master/3RMXi-E.jpg)
+![3RMXi-E Logotype](https://raw.githubusercontent.com/alexvcasillas/react-mobx-router-electron/master/3RMXi-E.jpg)
 
 ### React Create App with React Router and MobX and Internationalization
 
