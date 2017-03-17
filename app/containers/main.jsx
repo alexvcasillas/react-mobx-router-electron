@@ -1,12 +1,13 @@
 import React, { PropTypes } from 'react';
 import { Route } from 'react-router-dom';
+import { observer } from 'mobx-react';
 
-import Header from '../components/header';
+import Header from '../components/header/header';
 import Works from './works';
 import User from './user';
 import Home from './home';
 
-class Main extends React.Component {
+@observer class Main extends React.Component {
   render() {
     return (
       <div>
