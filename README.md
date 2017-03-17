@@ -6,6 +6,8 @@
 
 AKA: **3RMXi-E** (for the sake of brevity!)
 
+⚠️ **NOTE:** This repository is currently working only on "production environment", it won't be able to build your application .exe (for example) because i'm having some issues with the react-router and weird stuff that used to work when I uploaded the repo. Sorry for the inconvenience 😓
+
 ❕❕ **New:** Now supports Internationalization!
 
 ❕❕ **New:** i18n now supports nested language resource objects for a better structuring!
