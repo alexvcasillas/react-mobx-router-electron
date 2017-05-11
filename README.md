@@ -24,7 +24,7 @@ To get started using this boilerplate you only need to follow a few steps. First
 you should run `yarn` on your favorite terminal to initialize Yarn and install all the required
 dependencies.
 
-If you want to start developing your project you should run `yarn start`, this will generate
+If you want to start developing your project you should run `yarn run develop`, this will generate
 a development build (without optimizing the code for easy debug and all that stuff) based on a webpack dev-server
 with hot-reload and all those cool development features that we, programmers, love.
 
