@@ -28,8 +28,16 @@ If you want to start developing your project you should run `yarn run develop`, 
 a development build (without optimizing the code for easy debug and all that stuff) based on a webpack dev-server
 with hot-reload and all those cool development features that we, programmers, love.
 
-If you want a production build of your project you should run `yarn build`, this will create a build folder in the root
+If you want a production build of your project you should run `yarn run pack[:platform]`, this will create a build folder in the root
 directory of the project and bundle your `src` folder and optimize all the code to get the best possible performance. This build will be minified and the filenames will include the hashes.
+
+Pack commands available:
+* yarn run pack - This command packs your application to all the available platforms.
+* yarn run pack:win - This command will pack your application to the Windows platform.
+* yarn run pack:mac - This command will pack your application to the OSX platform.
+* yarn run pack:linux - This command will pack your application to the Linux platform.
+
+_Note: the `yarn run pack:mac` command is only available and will only work under an OSX environment. This command will fail if you try to execute it under a Windows environment for example._
 
 Your app will be ready to be deployed!!
 
